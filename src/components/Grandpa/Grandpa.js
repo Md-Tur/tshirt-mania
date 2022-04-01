@@ -19,7 +19,7 @@ const Grandpa = () => {
                 <h3>Grandpa</h3>
                 <p>House: {house} <button onClick={buyAHouse}>Buy a house</button></p>
                 <div style={{ display: 'flex' }}>
-                    <Father house={house} ornament={ornament}></Father>
+                    <Father house={house}></Father>
                     <Uncle house={house}></Uncle>
                     <Aunty house={house}></Aunty>
                 </div>
